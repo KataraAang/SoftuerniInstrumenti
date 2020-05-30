@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class SoftuerniTehnologiiMessage {
 
-	@RequestMapping("/stMessage")
+	@RequestMapping("/")
 	public @ResponseBody String softuerniTehnologiiMessage() {
 			
 		return "Privet, gospodin Malinov :)";
